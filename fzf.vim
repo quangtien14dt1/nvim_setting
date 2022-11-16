@@ -9,4 +9,4 @@ function! s:build_quickfix_list(lines)
 endfunction
 
 :let g:fzf_layout = { 'down': '40%' }
-:let g:fzf_action = {'ctrl-t': 'tab split','s': 'split','v': 'vsplit'}
+:let g:fzf_action = {'ctrl-t': 'tab split','ctrl-s': 'split','ctrl-v': 'vsplit'}
