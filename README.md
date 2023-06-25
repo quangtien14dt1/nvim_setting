@@ -1,33 +1,22 @@
-# VIM_SETUP_PYTHON_C/C++ 
+# VIM SETUP PYTHON/C/C++ 
 my own setting for coding c/c++ and python
-
 * cài đặt vim-plug làm trình quản lí plugins trên nvim : 
     + curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
 * tạo folder đặt config file và plugin: cd ~/.config && mkdir nvim
 
 * cài đặt ppa mới nhất cho neovim:
     + sudo add-apt-repository ppa:neovim-ppa/stable &&  sudo apt update
-    + 
 * sudo apt-get install neovim
-  
 * kiểm tra trắc chắn phiên bản hiện tại của nvim lớn hơn 0.5.0 ( cài đặt node và python sẽ tương thích hơn mới version mới )
   :checkhealth lệnh này để kiểm tra xem nvim còn thiếu những gì 
     -> cài nvm => nodejs lastest(global) => global npm => global yarn cài npm neovim : sudo npm install -g neovim (global)
-    
 * sudo apt-get install ruby-full cài đặt gem và ruby sudo gem install neovim
-
 * cài python3 => pip3 => neovim(package) => pyvim (package)
-
 * cài python2 => pip2 => neovim => pyvim
-
 vào thư mục nvim theo đường dẫn ./config/nvim
-
 git clone https://github.com/quangtienrikkeisoft/nvim- (nvim setup for c++ ,debugger(GDB) + vscode-cpptool (microsoft) ,memleak check(vangrind))
 :PlugUpdate ( date package )
-
 :PlugInstall ~/.config/nvim/autoload/plugged (reinstall package)
-
 :PlugUpgrade ( update package version and reinstall )
 
 * move to config/plugged/autoload/coc/ 
